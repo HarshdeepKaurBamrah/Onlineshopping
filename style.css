@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  header, nav, footer {
+    background-color: #333;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section#products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
